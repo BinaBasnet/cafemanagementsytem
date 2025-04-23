@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    /* background-color: lightgray; */
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 50%), url('../Images/1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    font-size: 2em;
+    color:white;
+    margin: 20px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+form {
+    border-radius: 15px;
+    /* background-color: rgb(219, 222, 224); */
+    box-shadow: 9px 9px 9px 9px rgba(238, 239, 239, 0.5);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.show-password {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.show-password label {
+    margin-left: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 20px;
+    width: 520px; /* Ensures the input spans the width of the form */
+    height: 50px;
+    margin-right:20px;
+    border-radius: 4px;
+    font-size: 20px; /* Increases the size of the text entered */
+}
+
+button {
+    background-color: rgb(51, 108, 213);
+    width: calc(100% - 40px);
+    height: 50px;
+    margin: 20px;
+    font-size: large;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}
+
+a {
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+}.error {
+    color: red;
+    font-size: 14px;
+   margin-top:0;
+   margin-left:20px;
+
+    display: block; /* Ensures it appears below the input */
+} p{
+    margin-top:10px;
+    display:flex;
+    text-align:center;
+    font-size:20px;
+    margin-left:90px;
+}
+a{
+    color: rgb(155, 65, 35);
+    font-family:serif;
+}
+
